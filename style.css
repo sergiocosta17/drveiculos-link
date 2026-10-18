@@ -102,7 +102,7 @@ html, body {
   color: #fff;
   opacity: .85;
   font-size: 13px;
-  margin-top: 10px;
+  margin-top: 8px;
   letter-spacing: 1px;
   text-align: center;
   z-index: 10;
@@ -411,7 +411,6 @@ html, body {
 
 .contact-title span { color: #ff1414; }
 
-/* ===== BOTÃO WHATSAPP PRINCIPAL ===== */
 .whatsapp-main {
   width: 100%;
   max-width: 360px;
@@ -457,7 +456,7 @@ html, body {
   min-width: 70px;
   flex-shrink: 0;
   border-radius: 50%;
-  background: #ffffff;
+  background: #fff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -477,7 +476,7 @@ html, body {
   height: 100%;
   object-fit: contain;
   object-position: center;
-  transform: scale(1.6);
+  transform: scale(1.3);
   display: block;
   border-radius: 50%;
 }
