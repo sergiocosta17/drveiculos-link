@@ -55,7 +55,7 @@ html, body {
   justify-content: flex-start;
   flex-direction: column;
   padding-top: 28px;
-  padding-bottom: 8px;
+  padding-bottom: 0;
   overflow: hidden;
 }
 
@@ -102,7 +102,7 @@ html, body {
   color: #fff;
   opacity: .85;
   font-size: 13px;
-  margin-top: 8px;
+  margin-top: 4px;
   letter-spacing: 1px;
   text-align: center;
   z-index: 10;
@@ -112,7 +112,8 @@ html, body {
   color: #ff1414;
   font-size: 22px;
   animation: bounceArrow 1.4s infinite;
-  margin-top: 2px;
+  margin-top: 0;
+  margin-bottom: 0;
   z-index: 10;
 }
 
@@ -124,10 +125,11 @@ html, body {
 .road-wrap {
   position: relative;
   width: 100%;
-  height: 32%;
-  min-height: 240px;
+  height: 40%;
+  min-height: 280px;
   background: linear-gradient(to bottom, #0a0a0a, #151515);
   border-top: 3px solid #2a2a2a;
+  margin-top: -6px;
   overflow: hidden;
 }
 
