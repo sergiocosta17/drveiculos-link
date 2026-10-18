@@ -60,7 +60,7 @@ html, body {
 }
 
 .logo-top {
-  width: 210px;
+  width: 200px;
   filter: drop-shadow(0 0 20px rgba(255, 0, 0, .5));
   animation: floatLogo 3s ease-in-out infinite;
   z-index: 10;
@@ -113,7 +113,7 @@ html, body {
   font-size: 22px;
   animation: bounceArrow 1.4s infinite;
   margin-top: 0;
-  margin-bottom: 12px;
+  margin-bottom: 18px;
   z-index: 10;
 }
 
