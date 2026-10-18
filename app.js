@@ -1,7 +1,7 @@
 // ====== CONFIGURAÇÕES - EDITAR AQUI ======
 
 // WhatsApp principal da loja (somente números: DDI + DDD + número)
-const WHATSAPP_PRINCIPAL = "5583998968776";
+const WHATSAPP_PRINCIPAL = "5583998734976";
 
 // Site oficial da loja
 const SITE_OFICIAL = "https://drveiculospb.com.br/";
