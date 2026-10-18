@@ -113,7 +113,7 @@ html, body {
   font-size: 22px;
   animation: bounceArrow 1.4s infinite;
   margin-top: 0;
-  margin-bottom: 0;
+  margin-bottom: 12px;
   z-index: 10;
 }
 
@@ -126,7 +126,7 @@ html, body {
   position: relative;
   width: 100%;
   height: 50%;
-  min-height: 280px;
+  min-height: 270px;
   background: linear-gradient(to bottom, #0a0a0a, #151515);
   border-top: 3px solid #2a2a2a;
   margin-top: -6px;
