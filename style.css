@@ -49,13 +49,13 @@ html, body {
 .road-sky {
   position: relative;
   width: 100%;
-  flex: 1.80;
+  flex: 1.15;
   display: flex;
   align-items: center;
   justify-content: flex-start;
   flex-direction: column;
   padding-top: 28px;
-  padding-bottom: 16px;
+  padding-bottom: 8px;
   overflow: hidden;
 }
 
@@ -75,7 +75,7 @@ html, body {
   position: relative;
   width: 96%;
   max-width: 460px;
-  margin-top: 16px;
+  margin-top: 12px;
   border-radius: 18px;
   overflow: hidden;
   box-shadow: 0 0 50px rgba(255, 0, 0, .45), 0 12px 40px rgba(0, 0, 0, .7);
@@ -102,7 +102,7 @@ html, body {
   color: #fff;
   opacity: .85;
   font-size: 13px;
-  margin-top: 12px;
+  margin-top: 10px;
   letter-spacing: 1px;
   text-align: center;
   z-index: 10;
@@ -112,7 +112,7 @@ html, body {
   color: #ff1414;
   font-size: 22px;
   animation: bounceArrow 1.4s infinite;
-  margin-top: 4px;
+  margin-top: 2px;
   z-index: 10;
 }
 
@@ -124,8 +124,8 @@ html, body {
 .road-wrap {
   position: relative;
   width: 100%;
-  height: 20%;
-  min-height: 250px;
+  height: 32%;
+  min-height: 240px;
   background: linear-gradient(to bottom, #0a0a0a, #151515);
   border-top: 3px solid #2a2a2a;
   overflow: hidden;
