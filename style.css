@@ -401,9 +401,11 @@ html, body {
   transform: translateX(100%);
   opacity: 0;
   z-index: 4;
-  overflow-y: auto;
+  overflow-y: auto;      /* scroll vertical ativado */
+  overflow-x: hidden;    /* scroll horizontal bloqueado */
   -webkit-overflow-scrolling: touch;
 }
+
 
 .contact-hero {
   width: 620px;
