@@ -89,7 +89,8 @@ let startOffset = 0;
 
 function getMaxOffset() {
   if (!roadWrap || !car) return 0;
-  return roadWrap.offsetHeight - car.offsetHeight - CAR_TOP_MARGIN - CAR_BASE_BOTTOM;
+  const available = roadWrap.offsetHeight - car.offsetHeight - CAR_TOP_MARGIN - CAR_BASE_BOTTOM;
+  return Math.max(available, 50);
 }
 
 function getOffset() {
@@ -100,7 +101,7 @@ function getOffset() {
 
 function setCarOffset(offset) {
   if (!car) return;
-  car.style.setProperty('--car-offset', `-${offset}px`);
+  car.style.setProperty('--car-offset', `-${Math.max(0, offset)}px`);
 }
 
 function updateStoreZoom(progress) {
