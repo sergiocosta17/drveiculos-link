@@ -101,7 +101,7 @@ html, body {
 .hint-text {
   color: #fff;
   opacity: .85;
-  font-size: 13px;
+  font-size: 18px;
   margin-top: 4px;
   letter-spacing: 1px;
   text-align: center;
@@ -110,7 +110,7 @@ html, body {
 
 .hint-arrow {
   color: #ff1414;
-  font-size: 22px;
+  font-size: 26px;
   animation: bounceArrow 1.4s infinite;
   margin-top: 0;
   margin-bottom: 18px;
@@ -245,6 +245,27 @@ html, body {
 .car-drag.dragging {
   cursor: grabbing;
   transition: none;
+}
+
+.car-arrow {
+  position: absolute;
+  top: -26px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-bottom: 16px solid #fff;
+  filter: drop-shadow(0 0 6px rgba(255, 255, 255, .8));
+  pointer-events: none;
+  z-index: 11;
+  animation: bounceCarArrow 1.4s infinite;
+}
+
+@keyframes bounceCarArrow {
+  0%, 100% { transform: translateX(-50%) translateY(0); opacity: .8; }
+  50% { transform: translateX(-50%) translateY(6px); opacity: 1; }
 }
 
 .track-line {
